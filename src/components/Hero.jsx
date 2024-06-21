@@ -209,7 +209,7 @@ export default function Hero() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md font-sans bg-yellow-400 px-3.5 py-1.5 text-base font-semibold leading-7 text-neutral-700 shadow-sm hover:bg-red-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-300"
+                className="rounded-md  font-sans bg-gradient-to-l from-rose-300 to-blue-300 px-3.5 py-1.5 text-base font-semibold leading-7 text-neutral-700 shadow-sm hover:bg-red-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-300"
               >
                 Get started
               </a>

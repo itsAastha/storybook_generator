@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'lights': 'lightsAnimation 10s ease infinite',
+      },
       fontFamily: {
         fredoka: ['Fredoka', 'sans-serif'],
         playwrite: ['"Playwrite NG Modern"', 'cursive'],

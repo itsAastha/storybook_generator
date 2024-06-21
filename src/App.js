@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import StoryGenerator from "./components/StoryGenerator";
+import KidStoryMaker from "./components/KidStoryMaker";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       </div>
       <Hero />
       <StoryGenerator/>
+      <KidStoryMaker/>
     </div>
   );
 }

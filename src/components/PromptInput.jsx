@@ -8,11 +8,11 @@ import {
   FaPuzzlePiece,
   FaShoppingCart,
   FaBuilding,
-  FaRegLightbulb,
 } from "react-icons/fa"; // Importing icons
 import { BsFillPatchQuestionFill, BsStars } from "react-icons/bs";
 import HeroImage from "../images/Hero.png";
 import Logo from "../images/logo.gif";
+import { FcIdea } from "react-icons/fc";
 
 
 const suggestedPrompts = [
@@ -64,7 +64,7 @@ export const PromptInput = () => {
         onMouseEnter={handleSuggestionsHover}
         onMouseLeave={handleSuggestionsLeave}
       >
-        Tips <FaRegLightbulb />
+        Tips <FcIdea  className=""/>
       </button>
       {showSuggestions && (
         <div
@@ -99,7 +99,7 @@ export const PromptInput = () => {
     </div>
     <button
       onClick={generateStory}
-      className="rounded-md flex items-center gap-2 m-4 font-sans bg-red-300 px-10  py-2 text-lg font-semibold leading-7 text-neutral-700 shadow-sm hover:bg-green-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-300"
+      className="rounded-md bg-gradient-to-r from-green-300 to-blue-300 flex items-center gap-2 m-4 font-sans bg-red-300 px-10  py-2 text-lg font-semibold leading-7 text-neutral-700 shadow-sm hover:bg-green-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-300"
     >
       Submit <BsStars />
     </button>
